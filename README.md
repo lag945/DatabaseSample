@@ -20,6 +20,6 @@ dotnet ef migrations add InitialCreate
 dotnet ef database update
 # vscode開啟資料夾
 code ../EFCoreSQLite
-
+```
 - 賣點是auto Migrate，檔案存在就更新、不存在就建立，只要一行```Database.Migrate();```
 	- 詳情參考 [余小章-SQLite Code First 和 Migration](https://dotblogs.com.tw/yc421206/2020/02/10/sqlite_code_first_migration)
